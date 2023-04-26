@@ -1,6 +1,6 @@
 <template>
     <div>
-        <button class="btn btn-danger rounded-5" v-bind:class="{ active: isActive }" @click="isActive = !isActive" type="button" >
+        <button class="btn  rounded-5" v-bind:class="{ 'btn-danger': isActive }" @click="isActive = true" type="button" >
             {{ isActive ? 'ON' : 'OFF' }}</button>
 
         <Modal></Modal>
