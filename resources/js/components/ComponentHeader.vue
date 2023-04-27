@@ -48,8 +48,8 @@
                                 </div>
                                 <!-- Submit Button-->
                                 <div class="mb-3">
-                                    <button style="width: 100%;" type="button" class="btn rounded-5"
-                                        @click="isActive = true"
+                                    <button style="width: 100%;" type="button" class="btn rounded-5" data-bs-toggle="modal"
+                                        data-bs-target="#ModalTwo" @click="isActive = true"
                                         :class="{ 'btn-success': isActive, 'btn-danger': !isActive }">
                                         {{ isActive ? 'Отправлено' : ' Обратный звонок' }} </button>
                                 </div>
@@ -59,7 +59,7 @@
                 </div>
             </div>
         </header>
-        
+
     </div>
 </template>
 

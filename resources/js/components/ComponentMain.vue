@@ -8,7 +8,8 @@
                 </div>
                 <div class="row gx-5 justify-content-center">
                     <!-- Model car-->
-                    <div class="card py-4" style="width: 19rem;">
+                    
+                    <div class="card py-4 col-3" style="width: 19rem;">
                         <h5 class="card-title "><strong>Model WHT</strong></h5>
                         <div class="d-flex justify-content-between mb-2">
                             <div>
@@ -26,17 +27,120 @@
                             привод</p>
                         <div class="d-flex flex-column">
                             <button type="button" class="btn rounded-5 mb-2" data-bs-toggle="modal"
-                                data-bs-target="#exampleModalCenter" :class="{ 'btn-danger': !hoverone, 'border border-dark': hoverone }"
+                                data-bs-target="#exampleModalCenter"
+                                :class="{ 'btn-danger': !hoverone, 'border border-dark': hoverone }"
                                 @mouseover="hoverone = true" @mouseleave="hoverone = false">Получить спец. цену</button>
                             <button type="button" class="btn rounded-5 mb-2" data-bs-toggle="modal"
-                                data-bs-target="#exampleModalCenter" :class="{ 'btn-outline-dark': !hovertwo, 'btn-danger': hovertwo }"
+                                data-bs-target="#exampleModalCenter"
+                                :class="{ 'btn-outline-dark': !hovertwo, 'btn-danger': hovertwo }"
                                 @mouseover="hovertwo = true" @mouseleave="hovertwo = false">Спец. условия по
                                 лизингу</button>
                             <button type="button" class="btn rounded-5" data-bs-toggle="modal"
-                                data-bs-target="#exampleModalCenter" :class="{ 'btn-outline-dark': !hovethree, 'btn-danger': hovethree }"
+                                data-bs-target="#exampleModalCenter"
+                                :class="{ 'btn-outline-dark': !hovethree, 'btn-danger': hovethree }"
                                 @mouseover="hovethree = true" @mouseleave="hovethree = false">Подобрать автомобиль</button>
                         </div>
                     </div>
+
+                    <div class="card py-4 col-3" style="width: 19rem;">
+                        <h5 class="card-title "><strong>Model WHT</strong></h5>
+                        <div class="d-flex justify-content-between mb-2">
+                            <div>
+                                <i class="bi bi-truck" style="color:red"></i>
+                                <strong style="font-size: x-small">10 А/М В НАЛИЧИИ</strong>
+                            </div>
+                            <div>
+                                <i class="bi bi-stopwatch" style="color:red"></i>
+                                <strong style="font-size: x-small">ЛИЗИНГ А/М</strong>
+                            </div>
+                        </div>
+                        <img class="card-img-top" :src="foto" alt="Card image cap">
+                        <p class="card-text mt-2" style="font-size: small">2.7 дизель, Common rail, 150 л.с., МКПП,
+                            Задний
+                            привод</p>
+                        <div class="d-flex flex-column">
+                            <button type="button" class="btn rounded-5 mb-2" data-bs-toggle="modal"
+                                data-bs-target="#exampleModalCenter"
+                                :class="{ 'btn-danger': !hoverone, 'border border-dark': hoverone }"
+                                @mouseover="hoverone = true" @mouseleave="hoverone = false">Получить спец. цену</button>
+                            <button type="button" class="btn rounded-5 mb-2" data-bs-toggle="modal"
+                                data-bs-target="#exampleModalCenter"
+                                :class="{ 'btn-outline-dark': !hovertwo, 'btn-danger': hovertwo }"
+                                @mouseover="hovertwo = true" @mouseleave="hovertwo = false">Спец. условия по
+                                лизингу</button>
+                            <button type="button" class="btn rounded-5" data-bs-toggle="modal"
+                                data-bs-target="#exampleModalCenter"
+                                :class="{ 'btn-outline-dark': !hovethree, 'btn-danger': hovethree }"
+                                @mouseover="hovethree = true" @mouseleave="hovethree = false">Подобрать автомобиль</button>
+                        </div>
+                    </div>
+
+                    <div class="card py-4 col-3" style="width: 19rem;">
+                        <h5 class="card-title "><strong>Model WHT</strong></h5>
+                        <div class="d-flex justify-content-between mb-2">
+                            <div>
+                                <i class="bi bi-truck" style="color:red"></i>
+                                <strong style="font-size: x-small">10 А/М В НАЛИЧИИ</strong>
+                            </div>
+                            <div>
+                                <i class="bi bi-stopwatch" style="color:red"></i>
+                                <strong style="font-size: x-small">ЛИЗИНГ А/М</strong>
+                            </div>
+                        </div>
+                        <img class="card-img-top" :src="foto" alt="Card image cap">
+                        <p class="card-text mt-2" style="font-size: small">2.7 дизель, Common rail, 150 л.с., МКПП,
+                            Задний
+                            привод</p>
+                        <div class="d-flex flex-column">
+                            <button type="button" class="btn rounded-5 mb-2" data-bs-toggle="modal"
+                                data-bs-target="#exampleModalCenter"
+                                :class="{ 'btn-danger': !hoverone, 'border border-dark': hoverone }"
+                                @mouseover="hoverone = true" @mouseleave="hoverone = false">Получить спец. цену</button>
+                            <button type="button" class="btn rounded-5 mb-2" data-bs-toggle="modal"
+                                data-bs-target="#exampleModalCenter"
+                                :class="{ 'btn-outline-dark': !hovertwo, 'btn-danger': hovertwo }"
+                                @mouseover="hovertwo = true" @mouseleave="hovertwo = false">Спец. условия по
+                                лизингу</button>
+                            <button type="button" class="btn rounded-5" data-bs-toggle="modal"
+                                data-bs-target="#exampleModalCenter"
+                                :class="{ 'btn-outline-dark': !hovethree, 'btn-danger': hovethree }"
+                                @mouseover="hovethree = true" @mouseleave="hovethree = false">Подобрать автомобиль</button>
+                        </div>
+                    </div>
+
+                    <div class="card py-4 col-3" style="width: 19rem;">
+                        <h5 class="card-title "><strong>Model WHT</strong></h5>
+                        <div class="d-flex justify-content-between mb-2">
+                            <div>
+                                <i class="bi bi-truck" style="color:red"></i>
+                                <strong style="font-size: x-small">10 А/М В НАЛИЧИИ</strong>
+                            </div>
+                            <div>
+                                <i class="bi bi-stopwatch" style="color:red"></i>
+                                <strong style="font-size: x-small">ЛИЗИНГ А/М</strong>
+                            </div>
+                        </div>
+                        <img class="card-img-top" :src="foto" alt="Card image cap">
+                        <p class="card-text mt-2" style="font-size: small">2.7 дизель, Common rail, 150 л.с., МКПП,
+                            Задний
+                            привод</p>
+                        <div class="d-flex flex-column">
+                            <button type="button" class="btn rounded-5 mb-2" data-bs-toggle="modal"
+                                data-bs-target="#exampleModalCenter"
+                                :class="{ 'btn-danger': !hoverone, 'border border-dark': hoverone }"
+                                @mouseover="hoverone = true" @mouseleave="hoverone = false">Получить спец. цену</button>
+                            <button type="button" class="btn rounded-5 mb-2" data-bs-toggle="modal"
+                                data-bs-target="#exampleModalCenter"
+                                :class="{ 'btn-outline-dark': !hovertwo, 'btn-danger': hovertwo }"
+                                @mouseover="hovertwo = true" @mouseleave="hovertwo = false">Спец. условия по
+                                лизингу</button>
+                            <button type="button" class="btn rounded-5" data-bs-toggle="modal"
+                                data-bs-target="#exampleModalCenter"
+                                :class="{ 'btn-outline-dark': !hovethree, 'btn-danger': hovethree }"
+                                @mouseover="hovethree = true" @mouseleave="hovethree = false">Подобрать автомобиль</button>
+                        </div>
+                    </div>
+                    
                 </div>
             </div>
             <!-- Contact section-->
@@ -67,7 +171,8 @@
                             </div>
                             <!-- Submit Button-->
                             <div class="col d-grid mb-3">
-                                <button type="button" class="btn rounded-5" @click="isActive = true"
+                                <button type="button" class="btn rounded-5" data-bs-toggle="modal"
+                                    data-bs-target="#ModalTwo" @click="isActive = true"
                                     :class="{ 'btn-success': isActive, 'btn-danger': !isActive }">
                                     {{ isActive ? 'Отправлено' : ' Обратный звонок' }} </button>
                             </div>
@@ -84,7 +189,7 @@
                 </div>
             </section>
         </section>
-        
+
     </div>
 </template>
 

@@ -27,7 +27,8 @@
                             </div>
                             <!-- Submit Button-->
                             <div class="p-2 d-grid mb-3">
-                                <button @click.prevent="addClient" class="btn btn-danger rounded-5" data-bs-dismiss="modal">
+                                <button @click.prevent="addClient" class="btn btn-danger rounded-5" data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal" data-bs-dismiss="modal">
                                     Обратный
                                     звонок </button>
                             </div>
@@ -38,6 +39,23 @@
                             персональных данных со
                             стороны КОМПАНИИ и даю свободное и осознанное согласие на их обработку, на получение
                             информации по каналам связи, в том числе в рекламных целях. Подробно тут</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="d-flex flex-column">
+                        <h2 class="p-2 d-flex justify-content-center">{{ status == 201 ? 'Ваша Заявка успешно отправлена' :
+                            'Ошибка при отправке' }}</h2>
+                        <h5 class="p-2 d-flex justify-content-center">{{ status == 201 ? 'менеджер свяжется с Вами в ближайшее время' : 'попробуйте отправить заявку заново' }}</h5>
+                        <a href="/" class="p-2 d-flex justify-content-center" style="text-decoration: none;">
+                            <button type="button" class=" btn btn-danger rounded-5" data-bs-dismiss="modal">{{ status == 201 ?
+                                'На главную' : 'Повторить' }}</button>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -66,7 +84,7 @@ export default {
         addClient() {
             axios
                 .post('api/client', { name: this.name, phone: this.phone })
-                .then(response => console.log(response))
+                .then(res => { this.status = res.status })
         }
     },
 }
