@@ -17,8 +17,10 @@ const app = createApp({});
 
 import ComponentHeader from './components/ComponentHeader.vue';
 import ComponentMain from './components/ComponentMain.vue';
+import ComponentModal from './components/ComponentModal.vue';
 app.component('component-header', ComponentHeader);
 app.component('component-main', ComponentMain);
+app.component('component-modal', ComponentModal);
 
 /**
  * The following block of code may be used to automatically register your

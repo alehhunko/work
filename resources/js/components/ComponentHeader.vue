@@ -22,7 +22,7 @@
                     </ul>
                 </div>
                 <button type="button" class="btn rounded-5" data-bs-toggle="modal" data-bs-target="#exampleModalCenter"
-                    :class="{ 'btn-danger': !hover, 'btn-success': hover }" @mouseover="hover = true"
+                    :class="{ 'btn-danger': !hover, 'border border-dark': hover }" @mouseover="hover = true"
                     @mouseleave="hover = false">Обратный
                     звонок</button>
             </div>
@@ -59,6 +59,7 @@
                 </div>
             </div>
         </header>
+        
     </div>
 </template>
 

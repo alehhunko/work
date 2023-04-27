@@ -39,44 +39,7 @@
         </footer>
 
         <!-- Modal -->
-        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
-            aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered" role="document">
-                <div class="modal-content">
-                    <div class="d-flex flex-column ">
-                        <h2 class="p-2 d-flex justify-content-center">Заголовок формы</h2>
-                        <h5 class="p-2 d-flex justify-content-center">Мы перезвоним вам и ответим на любой вопрос</h5>
-                    </div>
-                    <div class="modal-body">
-                        <div class="d-flex flex-column">
-                            <div class="p-2 mb-3">
-                                <input class="form-control rounded-5" id="name" type="text" placeholder="Ваше имя"
-                                    data-sb-validations="required" />
-                                <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.
-                                </div>
-                            </div>
-                            <!-- Phone number input-->
-                            <div class="p-2 mb-5">
-                                <input class="form-control rounded-5" id="phone" type="tel" placeholder="+7 (___) ___-__-__"
-                                    data-sb-validations="required" />
-                                <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is
-                                    required.
-                                </div>
-                            </div>
-                            <!-- Submit Button-->
-                            <div class="p-2 d-grid mb-3">
-                                <button type="submit" class="btn btn-danger rounded-5" data-bs-dismiss="modal"> Обратный звонок </button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="modal-footer">
-                        <p style="font-size: x-small">Нажимая кнопку я подтверждаю свое ознакомление с порядком обработки персональных данных со
-                            стороны КОМПАНИИ и даю свободное и осознанное согласие на их обработку, на получение
-                            информации по каналам связи, в том числе в рекламных целях. Подробно тут</p>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <component-modal></component-modal>
     </div>
 
 </body>
