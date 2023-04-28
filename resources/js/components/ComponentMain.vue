@@ -6,10 +6,10 @@
                 <div class="text-left mb-5">
                     <h1 class="fw-bolder">МОДЕЛИ В НАЛИЧИИ</h1>
                 </div>
-                <div class="row gx-5 justify-content-center">
+                <div class="row d-flex justify-content-around">
                     <!-- Model car-->
                     
-                    <div class="card py-4 col-3" style="width: 19rem;">
+                    <div class="card py-4 col-3" style="width: 16rem;">
                         <h5 class="card-title "><strong>Model WHT</strong></h5>
                         <div class="d-flex justify-content-between mb-2">
                             <div>
@@ -42,8 +42,8 @@
                         </div>
                     </div>
 
-                    <div class="card py-4 col-3" style="width: 19rem;">
-                        <h5 class="card-title "><strong>Model WHT</strong></h5>
+                    <div class="card py-4 col-3" style="width: 16rem;">
+                        <h5 class="card-title "><strong>Model BLK</strong></h5>
                         <div class="d-flex justify-content-between mb-2">
                             <div>
                                 <i class="bi bi-truck" style="color:red"></i>
@@ -75,8 +75,8 @@
                         </div>
                     </div>
 
-                    <div class="card py-4 col-3" style="width: 19rem;">
-                        <h5 class="card-title "><strong>Model WHT</strong></h5>
+                    <div class="card py-4 col-3" style="width: 16rem;">
+                        <h5 class="card-title "><strong>Model BRN</strong></h5>
                         <div class="d-flex justify-content-between mb-2">
                             <div>
                                 <i class="bi bi-truck" style="color:red"></i>
@@ -108,8 +108,8 @@
                         </div>
                     </div>
 
-                    <div class="card py-4 col-3" style="width: 19rem;">
-                        <h5 class="card-title "><strong>Model WHT</strong></h5>
+                    <div class="card py-4 col-3" style="width: 16rem;">
+                        <h5 class="card-title "><strong>Model GRN</strong></h5>
                         <div class="d-flex justify-content-between mb-2">
                             <div>
                                 <i class="bi bi-truck" style="color:red"></i>
