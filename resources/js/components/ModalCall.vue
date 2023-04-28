@@ -13,17 +13,12 @@
                         <div class="d-flex flex-column">
                             <div class="p-2 mb-3">
                                 <input class="form-control rounded-5" v-model="name" id="name" type="text"
-                                    placeholder="Ваше имя" data-sb-validations="required" />
-                                <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.
-                                </div>
+                                    placeholder="Ваше имя" />
                             </div>
                             <!-- Phone number input-->
                             <div class="p-2 mb-5">
                                 <input class="form-control rounded-5" v-model="phone" id="phone" type="tel"
-                                    placeholder="+7 (___) ___-__-__" data-sb-validations="required" />
-                                <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is
-                                    required.
-                                </div>
+                                    placeholder="+7 (___) ___-__-__" />
                             </div>
                             <!-- Submit Button-->
                             <div class="p-2 d-grid mb-3">

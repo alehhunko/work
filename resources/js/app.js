@@ -15,12 +15,14 @@ import { createApp } from 'vue';
 
 const app = createApp({});
 
-import ComponentHeader from './components/ComponentHeader.vue';
-import ComponentMain from './components/ComponentMain.vue';
-import ComponentModal from './components/ComponentModal.vue';
-app.component('component-header', ComponentHeader);
-app.component('component-main', ComponentMain);
-app.component('component-modal', ComponentModal);
+import HeaderNav from './components/HeaderNav.vue';
+import HeaderImg from './components/HeaderImg.vue';
+import BodyCar from './components/BodyCar.vue';
+import BodyQuestion from './components/BodyQuestion.vue';
+app.component('header-nav', HeaderNav);
+app.component('header-img', HeaderImg);
+app.component('body-car', BodyCar);
+app.component('body-question', BodyQuestion);
 
 /**
  * The following block of code may be used to automatically register your

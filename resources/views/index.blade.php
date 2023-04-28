@@ -20,9 +20,11 @@
     <div id="app">
         <div class="bg-image" style="background-image:url('{{ Vite::asset('/resources/img/main.png') }}'); -webkit-background-size: 100% 100%;
         -moz-background-size: 100% 100%; -o-background-size: 100% 100%; background-size: 100% 100%; height: 800px;">
-            <component-header></component-header>
+            <header-nav></header-nav>
+            <header-img></header-img>
         </div>
-        <component-main></component-main>
+        <body-car></body-car>
+        {{-- <body-question></body-question> --}}
         <!-- Map section-->
         <section class="bg-image">
             <img style="filter: grayscale(100%); background-size: cover; height: 800px;"
@@ -38,8 +40,6 @@
             </div>
         </footer>
 
-        <!-- Modal -->
-        <component-modal></component-modal>
     </div>
 
 </body>
